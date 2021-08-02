@@ -1,2 +1,2 @@
 # kalos
-What language does Kalos speak?
+カロス氏（[@Puomiaviq](https://twitter.com/Puomiaviq)）のツイートは何語？
