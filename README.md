@@ -1,2 +1,2 @@
-# kalos
-カロス氏（[@Puomiaviq](https://twitter.com/Puomiaviq)）のツイートは何語？
+# KalosPy
+カロス氏（[@Puomiaviq](https://twitter.com/Puomiaviq)）のツイートを Python で分析する。
