@@ -3,7 +3,9 @@ import re
 def sentences(src:list):
   res = []
   for txt in src:
-    res += re.findall(r'[^ \.\?\!][^\.\?\!]*[\.\?\!]', txt)
+    sen = re.findall(r'[^ \.\?\!][^\.\?\!]*[\.\?\!] ', txt + ' ')
+    for s in sen:
+      res += [re.match(r'(.*) ', s).group(1)]
   return res
 
 DECLAR = 1 # 平叙文 (declarative)
